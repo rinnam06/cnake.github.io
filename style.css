@@ -59,7 +59,7 @@ body {
     }
 }
 
-.about {
+.about-cnake {
     display: flex;
     flex-direction: column;
     height: 1024px;
@@ -78,5 +78,70 @@ body {
         font-size: 30px;
         width: 50%;
         text-align: center;
+    }
+}
+
+.poster {
+    display: flex;
+    height: 1024px;
+    align-items: center;
+    justify-content: center;
+    background-color: #B5CB99;
+}
+
+.about-project {
+    display: flex;
+    height: 1024px;
+    align-items: center;
+    justify-content: center;
+    column-gap: 300px;
+    background-color: #fff;
+    font-size: 30px;
+
+    & .container-member {
+        & .head {
+            font-size: 70px;
+        }
+
+        & ul {
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+            list-style-type: none;
+        
+            & li a{
+                    font-size: 25px;
+                    font-weight: bold;
+                    text-decoration: none;
+                }
+
+            & a:hover {
+                color: #fff;
+            }
+        }
+    }
+
+    & .container-btn {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        text-align: center;
+
+        & .btn {
+            max-width: 400px;
+            background-color: #B5CB99;
+            font-size: 40px;
+            padding: 2px 40px;
+            border-radius: 0.25rem;
+            
+            & a {
+                text-decoration: none;
+                color: #B2533E;
+            }
+            
+            & a:hover {
+                color: #fce09b;
+            }
+        }
     }
 }
