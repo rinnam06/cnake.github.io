@@ -1,0 +1,82 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Bebas Neue, IBM Plex Sans Thai Looped;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: min-content;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    background-color: #186F65;
+    padding: 0px 20px;
+    align-items: center;
+    justify-content: space-between;
+    
+    & ul {
+        display: flex;
+        column-gap: 20px;
+        list-style-type: none;
+        
+        & li a {
+            font-size: 25px;
+            font-weight: bold;
+            color: #fce09b;
+            text-decoration: none;
+        }
+
+        & a:hover {
+            color: #fff;
+        }
+    }
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    height: 1024px;
+    align-items: center;
+    justify-content: center;
+    color: #B2533E;
+    background-color: #B5CB99;
+
+    & .cnake {
+        font-size: 300px;
+        letter-spacing: 10px;
+        font-weight: bold;
+    }
+
+    & .text {
+        font-size: 40px;
+        letter-spacing: 10px;
+        font-weight: bold;
+    }
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    height: 1024px;
+    align-items: center;
+    justify-content: center;
+    color: #fce09b;;
+    background-image: url(./img/forest.jpg);
+
+    & .text {
+        font-size: 100px;
+        letter-spacing: 2px;
+        font-weight: bold;
+    }
+
+    & .description {
+        font-size: 30px;
+        width: 50%;
+        text-align: center;
+    }
+}
