@@ -83,7 +83,7 @@ body {
 
 .poster {
     display: flex;
-    height: 1024px;
+    height: 2560px;
     align-items: center;
     justify-content: center;
     background-color: #B5CB99;
@@ -91,16 +91,17 @@ body {
 
 .about-project {
     display: flex;
-    height: 1024px;
+    height: 512px;
     align-items: center;
     justify-content: center;
-    column-gap: 300px;
+    column-gap: 250px;
     background-color: #fff;
     font-size: 30px;
 
     & .container-member {
         & .head {
             font-size: 70px;
+            font-weight: bold;
         }
 
         & ul {
